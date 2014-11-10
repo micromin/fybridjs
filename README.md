@@ -40,5 +40,5 @@ Then, add the following codes to the body of your webpage:
 if you want to remove a method from fybrid, just remove the related argument. For example, if you want to remove the Flash plugin from fybrid, remove the `'flash'` argument from the `setID` method:
 
 ```
-ID.setID('canvas', 'jsobj', 'jsfonts', 'encrypt'); // 'flash is removed'
+ID.setID('canvas', 'jsobj', 'jsfonts', 'encrypt'); // 'flash' is removed
 ```
