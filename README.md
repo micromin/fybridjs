@@ -9,10 +9,10 @@ In contrast, fingerprinting is invisible to users and does not leave any footpri
 
 `fybridjs` first exploits the following Web technologies for collecting information through the browser and generating a unique identifier for the browser:
 
--Browser built-in JavaScript objects (jsobj)
--HTML5 canvas element (canvas)
--Flash plugin (flash)
--JavaScript-based font detection (jsfonts)
++ Browser built-in JavaScript objects (jsobj)
++ HTML5 canvas element (canvas)
++ Flash plugin (flash)
++ JavaScript-based font detection (jsfonts)
 
 
 ##How to use it:
@@ -25,15 +25,14 @@ In order to use `fybridjs`, simply add the JavaScript file of `fybridjs` to your
 
 Then, add the following codes to the body of your webpage:
 ```
-        <script>
-            document.addEventListener("fingerprint_is_ready", function(e) {
-                console.log('id -> ' + e.detail.id); // here is the generated id by fybridjs
-            });
+<script>
+    document.addEventListener("fingerprint_is_ready", function(e) {
+        console.log('id -> ' + e.detail.id); // here is the generated id by fybridjs
+    });
 
-            window.onload = function (){
-                var ID = new fybridjs();
-                ID.setID('canvas', 'flash', 'jsobj','encrypt', 'jsfonts');
-            };
-            
-        </script>
+    window.onload = function() {
+        var ID = new fybridjs();
+        ID.setID('canvas', 'flash', 'jsobj', 'encrypt', 'jsfonts');
+    };
+</script>
 ```
