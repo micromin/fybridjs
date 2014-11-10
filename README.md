@@ -3,7 +3,7 @@ fybridjs
 
 `fybridjs` is an open source browser fingerprinting (or fingerprinting) library. Fingerprinting can be used for identifying the user's browser and is useful for fraud detection and delivering more personalized services to the users (e.g., targeted advertisement).  
 
-Conventional browser identification methods mainly rely on client-side identifiers such as browser and Flash cookies. However, a careful or attentive user can see the list of client-side identifiers on her browser and simple delete them. Or, she can operate in the private mode of the modern browsers to block the cookies. 
+Conventional browser identification methods mainly rely on client-side identifiers such as browser and Flash cookies. However, a careful or attentive user can see the list of client-side identifiers on her browser and simply delete them. Or, she can operate in the private mode of the modern browsers to block the cookies. 
 
 In contrast, fingerprinting is invisible to users and does not leave any footprint on the browser, making it hard to detect and prevent and a powerful means of identification.
 

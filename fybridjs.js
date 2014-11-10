@@ -1,4 +1,5 @@
 /**
+ *
  * Fybrid is an open source library for performing fingerprinting.
  * Fingerprinting can be used for browser identification purposes.
  * Fybrid exploits various Web technologies such as browser pluigns
@@ -6,6 +7,7 @@
  * JavaScript objects to create a uniqu identifer for the browser.
  *
  * Designed and implemented by Amin Faiz Khademi
+ *
  **/
 
 //loading MD5 encryption method
